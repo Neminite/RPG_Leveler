@@ -1,0 +1,28 @@
+{
+	"spells":[
+		{
+			"name":"template",
+			"description":"Insert description here.",
+			"elements":["info"],
+			"type":"mental",
+			"shape":"idea",
+			"level":1,
+			"cost":{
+				"mana":1,
+				"items":["scroll"]
+			}
+	},{
+			"name":"Ice Arrow",
+			"description":"An arrow of Ice.",
+			"effect":"Destroys pies!",
+			"elements":["ice"],
+			"type":"physical",
+			"shape":"Arrow",
+			"level":1,
+			"damage":2,
+			"cost":{
+				"mana":2
+			}
+	}
+	]
+}

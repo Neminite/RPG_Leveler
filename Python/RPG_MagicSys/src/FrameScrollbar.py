@@ -1,0 +1,66 @@
+'''
+Created on Oct 12, 2017
+
+@author: Haunspergers
+'''
+from tkinter import Frame, Canvas, Scrollbar
+from tkinter.constants import GROOVE
+
+
+class FrameScrollbar(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, parent):
+        '''
+        Constructor
+        '''
+        self.ItemsFrame = {}
+        
+        
+        
+                
+        self.canvas_frame=Frame(parent,relief=GROOVE,bd=1)
+        self.canvas_frame.pack(fill="both",expand="YES")
+        
+        self.canvas=Canvas(self.canvas_frame)
+        self.frame=Frame(self.canvas)
+        self.scroll_bar=Scrollbar(self.canvas_frame,orient="vertical",command=self.canvas.yview)
+        self.canvas.configure(yscrollcommand=self.scroll_bar.set)
+        
+        self.scroll_bar.grid(row=0,column=1,sticky="NS")
+        self.canvas.grid(row=0,column=0,sticky="NSEW")
+        self.window = self.canvas.create_window((0,0),window=self.frame,anchor='nw')
+        
+        self.frame.bind("<Configure>", self.onFrameConfigure)
+        self.canvas.bind("<Configure>", self.onCanvasConfigure)
+        
+        self.canvas_frame.grid_rowconfigure(0,weight=1)
+        self.canvas_frame.grid_columnconfigure(0,weight=1)
+        self.frame.grid_columnconfigure(0, weight=1)
+        
+    def onFrameConfigure(self,event):
+        self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+        
+    def onCanvasConfigure(self,event):
+        #Resize the inner frame to match the canvas
+        minWidth = self.frame.winfo_reqwidth()
+        minHeight = self.frame.winfo_reqheight()
+    
+        if self.canvas_frame.winfo_width() >= minWidth:
+            newWidth = self.canvas_frame.winfo_width()
+        else:
+            newWidth = minWidth
+    
+        if self.canvas_frame.winfo_height() >= minHeight:
+            newHeight = self.canvas_frame.winfo_height()
+            #Hide the scrollbar when not needed
+            self.scroll_bar.grid_remove()
+        else:
+            newHeight = minHeight
+            #Show the scrollbar when needed
+            self.scroll_bar.grid()
+    
+        self.canvas.itemconfig(self.window, width=newWidth, height=newHeight)

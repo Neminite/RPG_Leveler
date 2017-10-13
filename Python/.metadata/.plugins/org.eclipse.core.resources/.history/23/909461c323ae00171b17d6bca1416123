@@ -1,0 +1,8 @@
+{
+	"elementalist":{"elements":[{"name":"base","level":0}]},
+	"wizard":{"num_cantrips":1,"num_spells":0,"cantrips":["Prestidigitation"],"spells":[]},
+	"natural_magic":{"abilities":[{"name":"Name","description":"description","level":0}]},
+	"artificer_runic":{},
+	"artificer_alchemic":{},
+	"artificer_arcane":{}
+}

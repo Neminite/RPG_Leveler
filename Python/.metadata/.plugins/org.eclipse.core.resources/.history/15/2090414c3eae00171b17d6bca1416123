@@ -1,0 +1,74 @@
+{
+	"elementalist": {
+		"tab_name": "Elements",
+		"files":["elements.json"],
+		"class_data": {
+			"element_points": 1,
+			"elements": [{
+				"name": "base",
+				"level": 0
+			}]
+		}
+	},
+	"wizard": {
+		"tab_name": "Spells",
+		"files":["wizard_spells.json"],
+		"class_data": {
+			"cantrip_points": 1,
+			"spell_points": 0,
+			"cantrips": [],
+			"spells": []
+		}
+	},
+	"natural_magic": {
+		"tab_name": "Talents",
+		"files":[],
+		"class_data": {
+			"abilities": [{
+				"name": "Name",
+				"description": "description",
+				"level": 0
+			}]
+		}
+	},
+	"runemaster": {
+		"tab_name": "Runes",
+		"files":["runes.json"],
+		"class_data": {
+			"rune_points": 1,
+			"runes:": []
+		}
+	},
+	"alchemist": {
+		"tab_name": "Formulas",
+		"files":["elements.json"],
+		"class_data": {
+			"alchemic_points": 0,
+			"elements": ["ignis"],
+			"recipes": [{
+				"name": "Alchemist's Fire",
+				"description": "A burst of flames in a flask",
+				"recipe": "Add in fire, stir vigorously",
+				"elements": ["ignis"]
+			}]
+		}
+	},
+	"artificer": {
+		"tab_name": "Inventions",
+		"files":[],
+		"class_data": {
+			"creations": [{
+				"name": "Name",
+				"description": "description"
+			},
+	"scorcerer": {
+		"tab_name": "Spell Attributes",
+		"files":["runes.json"],
+		"class_data": {
+			"rune_points": 1,
+			"runes:": []
+		}
+	}]
+		}
+	}
+}

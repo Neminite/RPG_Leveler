@@ -1,0 +1,54 @@
+{
+    "name": "Player",
+    "level": 1,
+    "items": [
+        "item1",
+        "item2"
+    ],
+    "gold": 100,
+    "spells": [
+        "spell_uuid1",
+        "spell_uuid2"
+    ],
+    "magic_types": [
+        "ice",
+        "fire"
+    ],
+    "description": "Insert description here.",
+    "special": "whatever",
+    "stats": {
+        "health": 10,
+        "maxMana": 100,
+        "attributes": {
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10
+        },
+        "base_attributes": {
+            "str": 8,
+            "dex": 8,
+            "con": 9,
+            "int": 9,
+            "wis": 10,
+            "cha": 10
+        },
+        "skills": {
+        	"Acrobatics":0,
+        	"Athletics":0
+        },
+        "speed": 5,
+        "sprintMod": 2,
+        "maxEnergy": 100,
+        "manaRegen": 1,
+        "energyRegen": 1,
+        "healthRegen": 1
+    },
+    "points": {
+        "attributes": 14
+    },
+    "background": "hi",
+    "journal": "bye"
+}

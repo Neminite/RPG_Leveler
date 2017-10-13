@@ -1,0 +1,4 @@
+{
+	"attributes":["STR","DEX","CHA","INT","WIS","CON"],
+	"stats":["health","healthRegen","mana","manaRegen","energy","energyRegen","speed"]
+}

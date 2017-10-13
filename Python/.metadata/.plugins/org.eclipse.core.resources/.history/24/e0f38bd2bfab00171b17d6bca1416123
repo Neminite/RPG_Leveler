@@ -1,0 +1,25 @@
+{
+	"spells":[
+		{
+			"name":"template",
+			"description":"Insert description here.",
+			"elements":["info"],
+			"shape":"idea",
+			"level":1,
+			"cost":{
+				"mana":1,
+				"items":["scroll"]
+			}
+	},{
+			"name":"Ice Arrow",
+			"description":"An arrow of Ice.",
+			"elements":["ice"],
+			"shape":"Arrow",
+			"level":1,
+			"damage":2,
+			"cost":{
+				"mana":2
+			}
+	}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"spell":{
+		"name":"template",
+		"description":"Insert description here.",
+		"elements":["info"],
+		"type":"cognition",
+		"colors":["black","white"],
+		"level":1,
+		"cost":{
+			"mana":1,
+			"items":["scroll"]
+		}
+	},
+	"uuid":"a93f6ba3-98ce-43c8-a6b2-33725d9c6632"
+}

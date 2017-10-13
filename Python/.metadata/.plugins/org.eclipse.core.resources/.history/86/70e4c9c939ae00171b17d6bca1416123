@@ -1,0 +1,42 @@
+{
+	"elementalist": {
+		"element_points": 1,
+		"elements": [{
+			"name": "base",
+			"level": 0
+		}]
+	},
+	"wizard": {
+		"cantrip_points": 1,
+		"spell_points": 0,
+		"cantrips": [],
+		"spells": []
+	},
+	"natural_magic": {
+		"abilities": [{
+			"name": "Name",
+			"description": "description",
+			"level": 0
+		}]
+	},
+	"runemaster": {
+		"rune_points": 1,
+		"runes:": []
+	},
+	"alchemist": {
+		"alchemic_points": 0,
+		"elements": ["ignis"],
+		"recipes": [{
+			"name": "Alchemist's Fire",
+			"description": "A burst of flames in a flask",
+			"recipe": "Add in fire, stir vigorously",
+			"elements": ["ignis"]
+		}]
+	},
+	"artificer": {
+		"creations": [{
+			"name": "Name",
+			"description": "description"
+		}]
+	}
+}

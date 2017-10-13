@@ -1,0 +1,16 @@
+{
+	"spells":[
+		{
+			"name":"template",
+			"description":"Insert description here.",
+			"elements":["info"],
+			"type":"cognition",
+			"colors":["black","white"],
+			"level":1,
+			"cost":{
+				"mana":1,
+				"items":["scroll"]
+		}
+	}
+	]
+}

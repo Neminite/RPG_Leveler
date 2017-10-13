@@ -1,0 +1,138 @@
+{
+    "spells": [
+        {
+	"name":"Burning Hands",
+	"level":1,
+	"school":"evocation",
+	"description":"Burning Hands\n1st-level evocation\n\nCasting Time: 1 action \nRange: Self (15-foot cone) \nComponents: V, S \nDuration: Instantaneous\n\nAs you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. \nThe fire ignites any flammable objects in the area that aren't being worn or carried.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+	},{
+	"name":"Charm Person",
+	"level":1,
+	"school":"enchantment",
+	"description":"Charm Person\n1st-level enchantment\n\nCasting Time: 1 action \nRange: 30 feet \nComponents: V, S \nDuration: 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+	},{
+	"name":"Color Spray",
+	"level":1,
+	"school":"illusion",
+	"description":"Color Spray\n1st-level illusion\n\nCasting Time: 1 action \nRange: Self (15-foot cone) \nComponents: V, S, M (a pinch of powder or sand that is colored red, yellow, and blue) \nDuration: 1 round\n\nA dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see). \nStarting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st."
+	},{
+	"name":"Disguise Self",
+	"level":1,
+	"school":"illusion",
+	"description":"Disguise Self\n1st-level illusion\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S \nDuration: 1 hour\n\nYou make yourself--including your clothing, armor, weapons, and other belongings on your person--look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. \nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair. \nTo discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC."
+	},{
+	"name":"Expeditious Retreat",
+	"level":1,
+	"school":"transmutation",
+	"description":"Expeditious Retreat\n1st-level transmutation\n\nCasting Time: 1 bonus action \nRange: Self \nComponents: V, S \nDuration: Concentration, up to 10 minutes\n\nThis spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action."
+	},{
+	"name":"False Life",
+	"level":1,
+	"school":"necromancy",
+	"description":"False Life\n1st-level necromancy\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S, M (a small amount of alcohol or distilled spirits) \nDuration: 1 hour\n\nBolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st."
+	},{
+	"name":"Feather Fall",
+	"level":1,
+	"school":"transmutation",
+	"description":"Feather Fall\n1st-level transmutation\n\nCasting Time: 1 reaction, which you take when you or a creature within 60 feet of you falls \nRange: 60 feet \nComponents: V, M (a small feather or piece of down) \nDuration: 1 minute\n\nChoose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
+	},{
+	"name":"Fog Cloud",
+	"level":1,
+	"school":"conjuration",
+	"description":"Fog Cloud\n1st-level conjuration\n\nCasting Time: 1 action \nRange: 120 feet \nComponents: V, S \nDuration: Concentration, up to 1 hour\n\nYou create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+	},{
+	"name":"Grease",
+	"level":1,
+	"school":"conjuration",
+	"description":"Grease\n1st-level conjuration\n\nCasting Time: 1 action \nRange: 60 feet \nComponents: V, S, M (a bit of pork rind or butter) \nDuration: 1 minute\n\nSlick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration. \nWhen the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone."
+	},{
+	"name":"Hideous Laughter",
+	"level":1,
+	"school":"enchantment",
+	"description":"Hideous Laughter\n1st-level enchantment\n\nCasting Time: 1 action \nRange: 30 feet \nComponents: V, S, M (tiny tarts and a feather that is waved in the air) \nDuration: Concentration, up to 1 minute\n\nA creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected. \nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends."
+	},{
+	"name":"Jump",
+	"level":1,
+	"school":"transmutation",
+	"description":"Jump\n1st-level transmutation\n\nCasting Time: 1 action \nRange: Touch \nComponents: V, S, M (a grasshopper's hind leg) \nDuration: 1 minute\n\nYou touch a creature. The creature's jump distance is tripled until the spell ends."
+	},{
+	"name":"Longstrider",
+	"level":1,
+	"school":"transmutation",
+	"description":"Longstrider\n1st-level transmutation\n\nCasting Time: 1 action \nRange: Touch \nComponents: V, S, M (a pinch of dirt) \nDuration: 1 hour\n\nYou touch a creature. The target's speed increases by 10 feet until the spell ends.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+	},{
+	"name":"Mage Armor",
+	"level":1,
+	"school":"abjuration",
+	"description":"Mage Armor\n1st-level abjuration\n\nCasting Time: 1 action \nRange: Touch \nComponents: V, S, M (a piece of cured leather) \nDuration: 8 hours\n\nYou touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
+	},{
+	"name":"Magic Missile",
+	"level":1,
+	"school":"evocation",
+	"description":"Magic Missile\n1st-level evocation\n\nCasting Time: 1 action \nRange: 120 feet \nComponents: V, S \nDuration: Instantaneous\n\nYou create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st."
+	},{
+	"name":"Protection from Evil and Good",
+	"level":1,
+	"school":"abjuration",
+	"description":"Protection from Evil and Good\n1st-level abjuration\n\nCasting Time: 1 action \nRange: Touch \nComponents: V, S, M (holy water or powdered silver and iron, which the spell consumes) \nDuration: Concentration up to 10 minutes\n\nUntil the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead. \nThe protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
+	},{
+	"name":"Shield",
+	"level":1,
+	"school":"abjuration",
+	"description":"Shield\n1st-level abjuration\n\nCasting Time: 1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell \nRange: Self \nComponents: V, S \nDuration: 1 round\n\nAn invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
+	},{
+	"name":"Silent Image",
+	"level":1,
+	"school":"illusion",
+	"description":"Silent Image\n1st-level illusion\n\nCasting Time: 1 action \nRange: 60 feet \nComponents: V, S, M (a bit of fleece) \nDuration: Concentration, up to 10 minutes\n\nYou create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects. \nYou can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. \nPhysical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
+	},{
+	"name":"Sleep",
+	"level":1,
+	"school":"enchantment",
+	"description":"Sleep\n1st-level enchantment\n\nCasting Time: 1 action \nRange: 90 feet \nComponents: V, S, M (a pinch of fine sand, rose petals, or a cricket) \nDuration: 1 minute\n\nThis spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures). \nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected. \nUndead and creatures immune to being charmed aren't affected by this spell.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st."
+	},{
+	"name":"Thunderwave",
+	"level":1,
+	"school":"evocation",
+	"description":"Thunderwave\n1st-level evocation\n\nCasting Time: 1 action \nRange: Self (15-foot cube) \nComponents: V, S \nDuration: Instantaneous\n\nA wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. \nIn addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
+	}
+    ],
+    "rituals": [
+    	{
+			"name":"Alarm",
+			"level":1,
+			"school":"abjuration",
+			"description":"Alarm\n1st‐level abjuration (ritual)\n\nCasting Time: 1 minute \nRange: 30 feet \nComponents: V, S, M (a tiny bell and a piece of fine silver wire) \nDuration: 8 hours\n\nYou set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. \nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. \nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet."
+		},{
+	"name":"Illusory Script",
+	"level":1,
+	"school":"illusion",
+	"description":"Illusory Script\n1st-level illusion (ritual)\n\nCasting Time: 1 minute \nRange: Touch \nComponents: S, M (a lead-based ink worth at least 10 gp, which the spell consumes) \nDuration: 10 days\n\nYou write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration. \nTo you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know. \nShould the spell be dispelled, the original script and the illusion both disappear. \nA creature with truesight can read the hidden message."
+	},{
+	"name":"Identify",
+	"level":1,
+	"school":"divination",
+	"description":"Identify\n1st-level divination (ritual)\n\nCasting Time: 1 minute \nRange: Touch \nComponents: V, S, M (a pearl worth at least 100 gp and an owl feather) \nDuration: Instantaneous\n\nYou choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it. \nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it."
+	},{
+	"name":"Floating Disk",
+	"level":1,
+	"school":"conjuration",
+	"description":"Floating Disk\n1st-level conjuration (ritual)\n\nCasting Time: 1 action \nRange: 30 feet \nComponents: V, S, M (a drop of mercury) \nDuration: 1 hour\n\nThis spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground. \nThe disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom. \nIf you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends."
+	},{
+	"name":"Find Familiar",
+	"level":1,
+	"school":"conjuration",
+	"description":"Find Familiar\n1st-level conjuration (ritual)\n\nCasting Time: 1 hour \nRange: 10 feet \nComponents: V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier) \nDuration: Instantaneous\n\nYou gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast. \nYour familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal. \nWhen the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. \nWhile your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. \nAs an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. \nYou can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature. \nFinally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
+	},{
+	"name":"Comprehend Languages",
+	"level":1,
+	"school":"divination",
+	"description":"Comprehend Languages\n1st-level divination (ritual)\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S, M (a pinch of soot and salt) \nDuration: 1 hour\n\nFor the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. \nThis spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language."
+	},{
+	"name":"Detect Magic",
+	"level":1,
+	"school":"divination",
+	"description":"Detect Magic\n1st-level divination (ritual)\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S \nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. \nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+	}
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	"skills":[
+		{
+			"name":"Acrobatics"
+		},
+		{
+			"name":"Fire Affinity",
+			"prerequisites":[{
+				"name":"other/Magic Types",
+				"operator":"includes",
+				"value":"Fire"
+			}]
+		}
+	]
+}

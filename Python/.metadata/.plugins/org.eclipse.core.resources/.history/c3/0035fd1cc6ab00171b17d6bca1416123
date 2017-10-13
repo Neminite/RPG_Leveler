@@ -1,0 +1,98 @@
+'''
+Created on Oct 7, 2017
+
+@author: Haunspergers
+'''
+
+import json
+from tkinter import *
+
+
+
+class SpellMakerGUI:
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self):
+        '''
+        Constructor
+        '''
+        
+        
+        self.spells_file="data/spells.json"
+        
+        
+        with open(self.spells_file, 'r') as spellsfile:
+            self.spellsdata = json.load(spellsfile)
+            
+        self.root = Tk()
+        
+        self.root.title("Spell Maker")
+        
+        
+        self.NumbersOnly = (self.root.register(self.validate),
+                '%d', '%i', '%P', '%s', '%S', '%v', '%V', '%W')
+        
+        
+        
+        self.insert_example = Label(self.root,text="(Insert multiple items as comma separated list)").grid(row=0,column=0,columnspan=2)
+        
+        self.spell_name_text = Label(self.root,text="Name: ").grid(row=1,column=0)
+        self.spell_name_input = Entry(self.root).grid(row=1,column=1)
+        
+        self.spell_description_text = Label(self.root,text="Description: ").grid(row=2,column=0)
+        self.spell_description_input = Text(self.root,width=15,height=7).grid(row=2,column=1)
+        
+        self.spell_elements_text = Label(self.root,text="Elements: \n(comma separated)").grid(row=3,column=0)
+        self.spell_elements_input = Entry(self.root).grid(row=3,column=1)
+        
+        self.spell_shape_text = Label(self.root,text="Shape:").grid(row=4,column=0)
+        self.spell_shape_input = Entry(self.root).grid(row=4,column=1)
+        
+        self.spell_level_text = Label(self.root,text="Level:").grid(row=5,column=0)
+        self.spell_level_input = Entry(self.root, validate = 'key', validatecommand = self.NumbersOnly)
+        self.spell_level_input.grid(row=5,column=1)
+        
+        self.spell_mana_text = Label(self.root,text="Mana:").grid(row=6,column=0)
+        self.spell_mana_input = Entry(self.root, validate = 'key', validatecommand = self.NumbersOnly)
+        self.spell_mana_input.grid(row=6,column=1)
+        
+        self.spell_damage_text = Label(self.root,text="Damage: ").grid(row=7,column=0)
+        self.spell_damage_input = Entry(self.root, validate = 'key', validatecommand = self.NumbersOnly)
+        self.spell_damage_input.grid(row=7,column=1)
+        
+        self.spell_components_text = Label(self.root,text="Components: \n(comma separated)").grid(row=8,column=0)
+        self.spell_components_input = Entry(self.root).grid(row=8,column=1)
+        
+        #####################################
+        
+        self.buttons = Frame(self.root,pady=10,bg="blue").grid(columnspan=2,sticky="NSEW")
+        
+        self.button_Add = Button(self.buttons,text="Add",command=print("add")).grid(row=12,column=0)
+        self.button_Cancel = Button(self.buttons,text="Cancel",command=lambda: self.root.destroy()).grid(row=12,column=1)
+        
+        #####################################
+            
+        self.root.mainloop()
+        
+    def validate(self, action, index, value_if_allowed,
+                       prior_value, text, validation_type, trigger_type, widget_name):
+        if(action=='1'):
+            if text in '0123456789.-+':
+                try:
+                    float(value_if_allowed)
+                    return True
+                except ValueError:
+                    return False
+            else:
+                return False
+        else:
+            return True
+        
+        
+        
+        
+        
+GUI = SpellMakerGUI()

@@ -1,0 +1,30 @@
+{
+	"base":[
+		{
+			"name":"Air",
+			"complexity":1
+		},{
+			"name":"Earth",
+			"complexity":1
+		},{
+			"name":"Water",
+			"complexity":1
+		},{
+			"name":"Fire",
+			"complexity":1
+		},{
+			"name":"Order",
+			"complexity":2
+		},{
+			"name":"Entropy",
+			"complexity":2
+		}
+	],
+	"elements":[
+		{
+			"name":"Light",
+			"complexity":2,
+			"components":["Air","Fire"]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "spells": [
+        {
+            "name": "template",
+            "description": "Insert description here.",
+            "school":"info",
+            "level": 1,
+            "casting_time":0
+        }
+    ]
+}

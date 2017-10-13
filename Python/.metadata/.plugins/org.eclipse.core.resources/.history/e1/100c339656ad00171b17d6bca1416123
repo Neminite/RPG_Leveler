@@ -1,0 +1,39 @@
+{
+    "spells": [
+        {
+            "name": "template",
+            "description": "Insert description here.",
+            "elements": [
+                "info"
+            ],
+            "shape": "idea",
+            "level": 1,
+            "mana": 1,
+            "components": [
+                "scroll"
+            ]
+        },
+        {
+            "name": "Ice Arrow",
+            "description": "An arrow of Ice.",
+            "elements": [
+                "ice"
+            ],
+            "shape": "Arrow",
+            "level": 1,
+            "damage": 2,
+            "mana": 2
+        },
+        {
+            "name": "Fire Arrow",
+            "description": "An arrow of fire. Inflicts slight burn",
+            "elements": [
+                "fire"
+            ],
+            "shape": "Arrow",
+            "level": 1,
+            "mana": 2,
+            "damage": "3"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "spells": [
+        {
+	"name":"Burning Hands",
+	"level":1,
+	"school":"evocation",
+	"description":"Burning Hands\n1st-level evocation\n\nCasting Time: 1 action \nRange: Self (15-foot cone) \nComponents: V, S \nDuration: Instantaneous\n\nAs you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. \nThe fire ignites any flammable objects in the area that aren't being worn or carried.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+	},{
+	"name":"Charm Person",
+	"level":1,
+	"school":"enchantment",
+	"description":"Charm Person\n1st-level enchantment\n\nCasting Time: 1 action \nRange: 30 feet \nComponents: V, S \nDuration: 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+	},{
+	"name":"Color Spray",
+	"level":1,
+	"school":"illusion",
+	"description":"Color Spray\n1st-level illusion\n\nCasting Time: 1 action \nRange: Self (15-foot cone) \nComponents: V, S, M (a pinch of powder or sand that is colored red, yellow, and blue) \nDuration: 1 round\n\nA dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see). \nStarting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st."
+	},{
+	"name":"Disguise Self",
+	"level":1,
+	"school":"illusion",
+	"description":"Disguise Self\n1st-level illusion\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S \nDuration: 1 hour\n\nYou make yourself--including your clothing, armor, weapons, and other belongings on your person--look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. \nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair. \nTo discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC."
+	}
+    ],
+    "rituals": [
+    	{
+			"name":"Alarm",
+			"level":1,
+			"school":"abjuration",
+			"description":"Alarm\n1st‐level abjuration (ritual)\n\nCasting Time: 1 minute \nRange: 30 feet \nComponents: V, S, M (a tiny bell and a piece of fine silver wire) \nDuration: 8 hours\n\nYou set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. \nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. \nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet."
+		},{
+	"name":"Comprehend Languages",
+	"level":1,
+	"school":"divination",
+	"description":"Comprehend Languages\n1st-level divination (ritual)\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S, M (a pinch of soot and salt) \nDuration: 1 hour\n\nFor the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. \nThis spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language."
+	},{
+	"name":"Detect Magic",
+	"level":1,
+	"school":"divination",
+	"description":"Detect Magic\n1st-level divination (ritual)\n\nCasting Time: 1 action \nRange: Self \nComponents: V, S \nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. \nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+	}
+    ]
+}

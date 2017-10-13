@@ -1,0 +1,74 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Haunspergers\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\RPG_MagicSys\com.python.pydev.analysis\v2_indexcache
+MainGUI|1507814556039576000|C:\Users\Haunspergers\Desktop\Python\RPG_MagicSys\src\MainGUI.py
+SpellMakerGUI|1507679111334716000|C:\Users\Haunspergers\Desktop\Python\RPG_MagicSys\src\SpellMakerGUI.py
+FrameScrollbar|1507814284072075000|C:\Users\Haunspergers\Desktop\Python\RPG_MagicSys\src\FrameScrollbar.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+6=MainGUI.GUIBackgroundTab
+1=MainGUI
+3=SpellMakerGUI
+4=MainGUI.GUIAbilitiesTab
+9=SpellMakerGUI.__init__
+15=SpellMakerGUI.save
+10=FrameScrollbar.__init__
+5=MainGUI.GUIItemsTab
+13=MainGUI.GUIJournalTab
+7=MainGUI.__init__
+14=MainGUI.GUISkillsTab
+2=FrameScrollbar
+11=MainGUI.GUIMenu
+8=MainGUI.GUIBody
+12=MainGUI.GUIHeader
+-- END DICTIONARY
+-- START TREE 1
+5
+dat|1|data!11@
+fra|1|FrameScrollbar!17@
+mai|1|MainGUI!9@
+ope|3|openFileName!10@OpenGUI!26@openGUI!10@
+spe|1|SpellMakerGUI!25@
+-- END TREE
+-- START TREE 2
+38
+__i|3|__init__!1&10@__init__!3&26@__init__!2&18@
+abi|1|Abilities_pointsLeftvar!4&11@
+add|1|addItemButton!5&11@
+att|1|Attributes!4&11@
+bac|2|background_box!6&11@background_text!7&11@
+bod|1|body!8&11@
+but|3|button_Cancel!9&27@buttons!9&27@button_Add!9&27@
+can|2|canvas_frame!10&19@canvas!10&19@
+cha|1|change_attribute!1&10@
+fil|1|fileMenu!11&11@
+fra|1|frame!10&19@
+gol|1|goldvar!7&11@
+gui|10|GUIHeader!1&10@GUIBody!1&10@GUISkillsTab!1&10@GUIMenu!1&10@GUIItemsTab!1&10@GUIClassTab!1&10@GUIJournalTab!1&10@GUIAbilitiesTab!1&10@GUIOverviewTab!1&10@GUIBackgroundTab!1&10@
+hea|7|header!12&11@header_level!12&11@header_levelvar!12&11@header_name!12&11@header_namevar!12&11@header_gold!12&11@header_goldvar!12&11@
+hel|1|hello!1&10@
+i|1|i!4&11@
+ins|1|insert_example!9&27@
+ite|5|ItemsFrame!10&19@itemMenu!11&11@itemid!5&11@Items!5&11@itemSFrame!5&11@
+jou|2|journal_box!13&11@journal_text!7&11@
+lev|1|levelvar!7&11@
+men|1|menubar!11&11@
+nam|1|namevar!7&11@
+num|1|NumbersOnly!9&27@
+on_|1|on_close!1&10@
+onc|1|onCanvasConfigure!2&18@
+onf|1|onFrameConfigure!2&18@
+ope|1|open_file!1&10@
+pla|3|player_filename!7&11@playerdata!7&11@player_class_data!7&11@
+roo|2|root!7&11@root!9&27@
+sav|3|save_on!7&11@save!3&26@save!1&10@
+scr|1|scroll_bar!10&19@
+sk_|2|sk_x!14&11@sk_y!14&11@
+ski|1|Skills!14&11@
+spe|20|spell_name_input!9&27@spell_components_input!9&27@spell_description_text!9&27@spell_shape_input!9&27@spell_level_text!9&27@spell_damage_text!9&27@spell_name_text!9&27@spell_level_input!9&27@spell_components_text!9&27@spell_mana_input!9&27@spell_mana_text!9&27@spell_shape_text!9&27@spells_file!9&27@spell_elements_text!9&27@spell!15&27@spellMenu!11&11@spelldata!9&27@spell_description_input!9&27@spell_elements_input!9&27@spell_damage_input!9&27@
+tab|9|tabAbilities!8&11@tabSkills!8&11@tabAbilities_abil!4&11@tabAbilities_pointsLeft!4&11@tabAbilities_pointsLeftvar!4&11@tabClass!8&11@tabBackground!8&11@tabJournal!8&11@tabItems!8&11@
+upd|1|updateSkills!1&10@
+val|1|validate!3&26@
+win|1|window!10&19@
+-- END TREE

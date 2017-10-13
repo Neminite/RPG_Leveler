@@ -1,0 +1,18 @@
+{
+	"attributes":["STR","DEX","CHA","INT","WIS","CON"],
+	"stats":["Health","HealthRegen","Mana","ManaRegen"],
+	"other":[{"name":"Magic Types","type":"str"}],
+	"skills":[
+		{
+			"name":"Acrobatics"
+		},
+		{
+			"name":"Fire Affinity",
+			"prerequisites":[{
+				"name":"Magic Types",
+				"operator":"includes",
+				"value":"Fire"
+			}]
+		}
+	]
+}

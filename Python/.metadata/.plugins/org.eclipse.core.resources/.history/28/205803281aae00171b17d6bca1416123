@@ -1,0 +1,5 @@
+{
+	"attributes":["STR","DEX","CHA","INT","WIS","CON"],
+	"stats":["Health","HealthRegen","Mana","ManaRegen"],
+	"other":{"Magic Types":"str"}
+}
